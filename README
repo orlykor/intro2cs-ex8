@@ -1,0 +1,55 @@
+orlykor12
+203595541
+orly koren
+
+I discussed the exercise with: -
+
+=============================
+=  README for ex8- Asteroids game
+=============================
+
+usage:
+
+python3 asteroidsMain.py <num_asteroids> 
+
+
+
+
+==================
+=  Description:  =
+==================
+
+in this exercise we did the asteroids game using classes.
+in each func we called to the other builttin funcs in the needed classes, with 
+them we built each part of the game. 
+the API was helping a lot, for each part i needed to do in the funcs i went to 
+look up in the API to see which func i should call and what it does.
+
+i did the 2nd bonus:
+
+for that i looked online to see how it works. 
+in order to add one argument to the usage line, we need to use the sis modoule.
+in it we need to use the sis.argv which let us add arguments to the usage line.
+if there were added argumnets, it sends it to the main, in there it sends it
+to the gamerunner which run the game. then it changes the amount of the
+asteroids consider the input number.
+
+=============================
+=  List of submitted files: =
+=============================
+
+asteroidsMain.py
+README
+
+
+======================
+=  Special Comments  =
+======================
+
+i didnt know if i should put my strings of the messages and titles into 
+constant. i thought that it doesnt change through the game and i dont want 
+someone else to chanch the strings. its not clear whether it considers has 
+"magic strings" or not. if you can make it clear i will appreciate it.
+ 
+
+
